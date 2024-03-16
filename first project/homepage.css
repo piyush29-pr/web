@@ -1,0 +1,109 @@
+/* homepage.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Set a light background color */
+}
+/* #piyush:hover{
+  opacity: 0.5;
+  border:2px solid red;
+} */
+
+header {
+  background: linear-gradient(to right, #ff8c00, #ff0080, #8000ff); /* Multicolor gradient */
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #0066cc; /* Link color */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #ff4500; /* Change color on hover */
+}
+
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #participation h2, #sports-photos h2 {
+  color: #333;
+  border-bottom: 2px solid #333; /* Add a border under section headings */
+  padding-bottom: 10px;
+}
+
+.photo {
+  margin-top: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add rounded corners to photos */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo p {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+ h2 {
+  margin-bottom: 10px; /* Add margin below the "Contact Us" heading */
+} 
+
+i.fa-brands {
+  margin-right: 10px; /* Add margin between icons */
+  font-size: 1.5em;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}

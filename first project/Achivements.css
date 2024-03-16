@@ -1,0 +1,90 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        header {
+          background: linear-gradient(to right, #ff8c00, #ff0800,#8000ff); /* Example gradient colors */
+          color: white;
+          text-align: center;
+          padding: 20px;
+        }
+
+        #headerh1#h2{
+          margin:0%;
+        }
+        
+        #logo {
+          width: 100px;
+          height: auto;
+        }
+        h1 {
+            color: #333;
+        }
+
+        .achievement {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .achievement img {
+       
+          max-width:100%;
+          height: auto;
+        }
+  
+
+
+
+
+
+
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        li {
+          margin-bottom: 10px;
+        }
+        /* Hyperlink styling */
+        a {
+          text-decoration: none;
+          color: #2196F3; /* Default color */
+        }
+        
+        a:hover {
+          color: #ff4500; /* Color on hover */
+        }
+        
+
+
+        footer {
+          background-color: #000;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        i.fa-brands {
+          margin-right: 10px; /* Add margin between icons */
+          font-size: 1.5em;
+        }
+        
+        /* Responsive styles for smaller screens */
+        @media screen and (max-width: 600px) {
+          header {
+            padding: 1rem;
+          }
+        
+          section {
+            padding: 10px;
+          }
+        
+          footer {
+            padding: 10px;
+          }
+        }
+        

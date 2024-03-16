@@ -1,0 +1,128 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Set a light background color */
+}
+
+header {
+  background: linear-gradient(to right, #ff8c00, #ff0080, #8000ff); /* Multicolor gradient */
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.event-section img {
+  float: right;
+  max-width: 500px; /* Example size */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.event-section h2 {
+  border-bottom: none; /* Remove border for h2 */
+  padding-bottom: 0;
+  border-bottom: 2px solid #333; /* Add a border under section headings */
+}
+.register-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position:center;
+}
+
+/* Header and Footer heading styling */
+header h2, footer h2 {
+  border-bottom: none; /* Remove border for h2 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc; /* Link color */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #ff4500; /* Change color on hover */
+}
+
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h2 {
+  margin-bottom: 10px; /* Add margin below the "Contact Us" heading */
+}
+
+i.fa-brands {
+  margin-right: 10px; /* Add margin between icons */
+  font-size: 1.5em;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}

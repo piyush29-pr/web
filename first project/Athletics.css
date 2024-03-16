@@ -1,0 +1,122 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Set a light background color */
+}
+
+
+/* Header styling */
+header {
+  background: linear-gradient(to right, #ff8c00, #ff0800,#8000ff); /* Example gradient colors */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+
+
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+/* Hyperlink styling */
+a {
+  text-decoration: none;
+  color: #2196F3; /* Default color */
+}
+
+a:hover {
+  color: #ff4500; /* Color on hover */
+}
+
+
+/* Event section styling */
+.event-section {
+  max-width: 800px; /* Adjust as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.event-section img {
+  float: right;
+  max-width: 200px; /* Example size */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Section heading styling */
+.event-section h2 {
+  border-bottom: none; /* Remove border for h2 */
+  padding-bottom: 0;
+  border-bottom: 2px solid #333; /* Add a border under section headings */
+}
+
+/* Registration button styling */
+.register-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position:center;
+}
+
+/* Header and Footer heading styling */
+header h2, footer h2 {
+  border-bottom: none; /* Remove border for h2 */
+}
+
+
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h2 {
+  margin-bottom: 10px; /* Add margin below the "Contact Us" heading */
+}
+
+i.fa-brands {
+  margin-right: 10px; /* Add margin between icons */
+  font-size: 1.5em;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
